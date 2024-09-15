@@ -36,6 +36,7 @@ struct HomeView: View {
                             .font(.system(size: 12))
                             .foregroundColor(.yellow)
                     }
+                    .padding([.leading, .bottom, .trailing])
                 }
             }
             .listStyle(.grouped)
